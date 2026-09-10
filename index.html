@@ -1,0 +1,350 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For My aiman meri soni swani 😂 🤍</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #eadfff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card {
+    width: 90%;
+    max-width: 430px;
+    min-height: 540px;
+    padding: 35px 28px;
+    border-radius: 32px;
+    background: rgba(255,255,255,0.88);
+    box-shadow: 0 20px 60px rgba(80,50,100,0.18);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+
+.screen {
+    display: none;
+    width: 100%;
+    animation: appear 0.65s ease;
+}
+
+.screen.active {
+    display: block;
+}
+
+h1 {
+    color: #b84f82;
+    font-size: 34px;
+    margin: 12px 0;
+}
+
+h2 {
+    color: #995db8;
+    font-size: 28px;
+}
+
+p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.75;
+}
+
+.big {
+    font-size: 68px;
+}
+
+button {
+    border: none;
+    margin-top: 22px;
+    padding: 14px 34px;
+    border-radius: 30px;
+    font-size: 17px;
+    color: white;
+    background: linear-gradient(135deg, #e66b9d, #a86bdd);
+    box-shadow: 0 8px 20px rgba(160,80,150,0.25);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.06);
+}
+
+.message {
+    background: rgba(255,240,247,0.8);
+    border-radius: 22px;
+    padding: 18px;
+    margin-top: 15px;
+}
+
+.heart {
+    position: fixed;
+    bottom: -40px;
+    font-size: 24px;
+    animation: floatUp 5s linear forwards;
+    opacity: 0.75;
+    z-index: 1;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(18px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes floatUp {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-115vh);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- SCREEN 1 -->
+    <div class="screen active">
+
+        <div class="big">🤍</div>
+
+        <h1>Happy Birthdayyy!</h1>
+
+        <p>
+            Meri piyari dost,<br>
+            meri piyari Aiman cheekie,<br>
+            meri piyari golumolu,<br>
+            meri piyari bestfriend 🤍
+        </p>
+
+        <button onclick="nextScreen()">Next 🤍</button>
+
+    </div>
+
+
+    <!-- SCREEN 2 -->
+    <div class="screen">
+
+        <div class="big">🤍</div>
+
+        <h2>Aiman Qasim</h2>
+
+        <div class="message">
+
+            <p>
+                Achi yar, tu bohat bohat qasam se
+                best hai mere liye.
+                Sach mein, tu bht bht achiii 🤍
+            </p>
+
+        </div>
+
+        <button onclick="nextScreen()">Next 🤍</button>
+
+    </div>
+
+
+    <!-- SCREEN 3 -->
+    <div class="screen">
+
+        <div class="big">🤍</div>
+
+        <h2>01:00 AM</h2>
+
+        <div class="message">
+
+            <p>
+                Wesay dekh...
+                abhi raat ka 1 baj raha hai
+                aur main tere liye ye bana raha hoon.
+                Aur sach bataun?
+                Mujhe khud bohat maza aa raha hai
+                ye banate hue itni cheekie hay itna to bnta hay na  🤍
+            </p>
+
+            <p>
+                Kyunke meri bewi ke liye
+                itna to banta hai.
+            </p>
+
+        </div>
+
+        <button onclick="nextScreen()">Next 🤍</button>
+
+    </div>
+
+
+    <!-- SCREEN 4 -->
+    <div class="screen">
+
+        <div class="big">🤍</div>
+
+        <h2>Seedhi si baat...</h2>
+
+        <div class="message">
+
+            <p>
+                Main nay ya  ChatGPT se nyi bnwaya na hi 
+                likhwaya nahi hai
+                Jo zehan mein aya das  diya.tughy 
+                Dil ki baat bhi bol deta hoon
+                bndi meri to bdri kmal ha 😂💕
+            </p>
+
+        </div>
+
+        <button onclick="nextScreen()">Next 🤍</button>
+
+    </div>
+
+
+    <!-- SCREEN 5 -->
+    <div class="screen">
+
+        <div class="big">🤍</div>
+
+        <h2>Bas ek request...</h2>
+
+        <div class="message">
+
+            <p>
+                Bas larai na kiya kar.
+                Jab tu mujhe hurt karti hai
+                to mujhe sachbura lagta bas ya na krr.
+            </p>
+
+            <p>
+                baqi meri chikni chkni cheeks ko bhi message krwa liya kr mery say 
+               
+                baqi bat bhi krlay                 bas effort aur dosti important hai 🤍
+            </p>
+
+        </div>
+
+        <button onclick="nextScreen()">Next 🤍</button>
+
+    </div>
+
+
+    <!-- SCREEN 6 -->
+    <div class="screen">
+
+        <div class="big">🤍</div>
+
+        <h1>Mubarak ho tenu! 🤍</h1>
+
+        <div class="message">
+
+            <p>
+                Ag paida hoi thiii 😂
+            </p>
+
+            <p>
+                Phir se...
+                <br>
+                <b>Happy Birthday meri golumolu! 🤍</b>
+            </p>
+
+            <p>
+                Itni mushkil se ye program banaya hai,
+                isliye thora si chumi blkay 10 chumian bnti hain 
+            </p>
+
+            <p>
+                Mazaaq kar raha hoon dosttt 🤍
+                Tere liye kuch bhi!
+            </p>
+
+        </div>
+
+        <div style="font-size:32px; margin-top:15px;">
+            🤍 🤍 🤍
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+let current = 0;
+
+const screens = document.querySelectorAll(".screen");
+
+function nextScreen() {
+
+    screens[current].classList.remove("active");
+
+    current++;
+
+    if (current >= screens.length) {
+        current = screens.length - 1;
+    }
+
+    screens[current].classList.add("active");
+
+    makeHeart();
+}
+
+
+// Only white hearts 🤍
+
+function makeHeart() {
+
+    const heart = document.createElement("div");
+
+    heart.className = "heart";
+
+    heart.innerHTML = "🤍";
+
+    heart.style.left = Math.random() * 100 + "vw";
+
+    heart.style.animationDuration =
+        (3 + Math.random() * 3) + "s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 6000);
+}
+
+
+// Background hearts
+
+setInterval(makeHeart, 900);
+
+</script>
+
+</body>
+</html>
+```
